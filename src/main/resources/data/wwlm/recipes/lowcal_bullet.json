@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "cgl",
+    "   "
+  ],
+  "key": {
+    "c":
+    {
+      "item":"wwlm:copper_case"
+    },
+    "g":
+    {
+      "item":"minecraft:gunpowder"
+    },
+    "l":
+    {
+      "item":"wwlm:lead_bullet"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:lowcal_bullet",
+    "count": 1
+  }
+}

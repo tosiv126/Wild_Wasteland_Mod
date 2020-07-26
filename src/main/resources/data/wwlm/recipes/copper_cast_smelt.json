@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wwlm:copper_cast"
+  },
+  "result": "wwlm:molten_copper_cast",
+  "experience": 0.5,
+  "cookingtime": 200
+}

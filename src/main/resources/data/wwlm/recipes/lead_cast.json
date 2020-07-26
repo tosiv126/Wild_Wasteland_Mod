@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:lead_ingot"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:lead_cast",
+    "count": 1
+  }
+}

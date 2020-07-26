@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:casting_bin",
+    "count": 1
+  }
+}

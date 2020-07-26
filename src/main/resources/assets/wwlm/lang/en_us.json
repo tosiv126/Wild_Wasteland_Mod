@@ -1,5 +1,24 @@
 {
   "item.wwlm.pipe": "Pipe",
+  "item.wwlm.copper_ingot": "Copper Ingot",
+  "item.wwlm.lead_ingot": "Lead Ingot",
+  "item.wwlm.steel_ingot": "Steel Ingot",
+  "item.wwlm.copper_wire": "Copper Wire",
+  "item.wwlm.steel_mix": "Steel Mix",
+  "item.wwlm.lead_cast": "Lead Cast",
+  "item.wwlm.molten_lead_cast": "Molten Lead Cast",
+  "item.wwlm.copper_cast": "Copper Cast",
+  "item.wwlm.molten_copper_cast": "Molten Copper Cast",
+  "item.wwlm.casting_bin": "Casting Bin",
+  "item.wwlm.lead_bullet": "Lead Bullet",
+  "item.wwlm.lowcal_bullet": "Low-Cal Bullet",
+
   "block.wwlm.ash_block": "Ash Block",
+  "block.wwlm.copper_block": "Copper Block",
+  "block.wwlm.lead_block": "Lead Block",
+  "block.wwlm.steel_block": "Steel Block",
+  "block.wwlm.copper_ore": "Copper Ore",
+  "block.wwlm.lead_ore": "Lead Ore",
+
   "itemGroup.WildWastelandTab": "WW Mod"
 }

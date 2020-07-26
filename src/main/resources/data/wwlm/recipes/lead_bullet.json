@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:molten_lead_cast"
+    },
+    {
+      "item": "wwlm:casting_bin"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:lead_bullet",
+    "count": 3
+  }
+}

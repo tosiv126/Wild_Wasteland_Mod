@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x":
+    {
+      "item":"wwlm:lead_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:lead_block",
+    "count": 1
+  }
+}

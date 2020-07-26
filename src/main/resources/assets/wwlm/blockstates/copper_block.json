@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "wwlm:block/copper_block" }
+  }
+}

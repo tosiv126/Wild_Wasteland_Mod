@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wwlm:steel_mix"
+  },
+  "result": "wwlm:steel_ingot",
+  "experience": 0.5,
+  "cookingtime": 200
+}

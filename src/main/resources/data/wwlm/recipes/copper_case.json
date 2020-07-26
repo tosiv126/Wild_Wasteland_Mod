@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:molten_copper_cast"
+    },
+    {
+      "item": "wwlm:casting_bin"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:copper_case",
+    "count": 3
+  }
+}

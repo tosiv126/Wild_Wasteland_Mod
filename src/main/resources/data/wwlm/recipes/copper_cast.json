@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:copper_ingot"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:copper_cast",
+    "count": 1
+  }
+}

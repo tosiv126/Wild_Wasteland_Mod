@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "wwlm:block/steel_block" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wwlm:lead_cast"
+  },
+  "result": "wwlm:molten_lead_cast",
+  "experience": 0.5,
+  "cookingtime": 200
+}
