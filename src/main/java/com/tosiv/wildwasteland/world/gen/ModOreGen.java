@@ -1,11 +1,10 @@
 package com.tosiv.wildwasteland.world.gen;
 
 import com.tosiv.wildwasteland.WildWastelandMod;
-import com.tosiv.wildwasteland.util.RegistryHandler;
+import com.tosiv.wildwasteland.init.ModBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.placement.ConfiguredPlacement;
@@ -22,8 +21,8 @@ public class ModOreGen {
     @SubscribeEvent
     public static void generateOres(FMLLoadCompleteEvent event){
         for (Biome biome : ForgeRegistries.BIOMES) {
-            genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(),8);
-            genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.LEAD_ORE.get().getDefaultState(),8);
+            genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(),8);
+            genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LEAD_ORE.get().getDefaultState(),8);
         }
 
     }
