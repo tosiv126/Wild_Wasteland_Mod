@@ -2,7 +2,11 @@ package com.tosiv.wildwasteland.init;
 
 import com.tosiv.wildwasteland.WildWastelandMod;
 import com.tosiv.wildwasteland.blocks.BlockItemBase;
+import com.tosiv.wildwasteland.items.InsectFlesh;
 import com.tosiv.wildwasteland.items.ItemBase;
+import com.tosiv.wildwasteland.items.CookedInsectFlesh;
+import com.tosiv.wildwasteland.items.ProcessedHealroot;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +30,23 @@ public class ModItems {
     public static final RegistryObject<Item> CASTING_BIN = ITEMS.register("casting_bin",ItemBase::new);
     public static final RegistryObject<Item> LEAD_BULLET = ITEMS.register("lead_bullet",ItemBase::new);
     public static final RegistryObject<Item> LOWCAL_BULLET = ITEMS.register("lowcal_bullet",ItemBase::new);
+    public static final RegistryObject<Item> RADIOACTIVE_INSECT_FLESH = ITEMS.register("radioactive_insect_flesh", ItemBase::new);
+    public static final RegistryObject<Item> HEALROOT_CROP = ITEMS.register("healroot_crop", ItemBase::new);
+    public static final RegistryObject<Item> ROPEROOT_CROP = ITEMS.register("roperoot_crop", ItemBase::new);
+    public static final RegistryObject<Item> ROPE = ITEMS.register("rope", ItemBase::new);
+
+
+    //Food
+    public static final RegistryObject<CookedInsectFlesh> COOKED_INSECT_FLESH = ITEMS.register("cooked_insect_flesh", CookedInsectFlesh::new);
+    public static final RegistryObject<InsectFlesh> INSECT_FLESH = ITEMS.register("insect_flesh", InsectFlesh::new);
+    public static final RegistryObject<ProcessedHealroot> PROCESSED_HEALROOT = ITEMS.register("processed_healroot", ProcessedHealroot::new);
+
+
+    //Crops
+    public static final RegistryObject<Item> HEALROOT_SEED = ITEMS.register("healroot_seed", ()-> new BlockItem(ModBlocks.HEALROOT.get(), new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<Item> ROPEROOT_SEED = ITEMS.register("roperoot_seed", ()-> new BlockItem(ModBlocks.ROPEROOT.get(), new Item.Properties().group(WildWastelandMod.TAB)));
+
+
 
     //Tools
 

@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "wwlm:blocks/healroot_stage4"
+  }
+}

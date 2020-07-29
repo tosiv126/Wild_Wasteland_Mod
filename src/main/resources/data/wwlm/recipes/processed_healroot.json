@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xyx",
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x":
+    {
+      "item":"wwlm:healroot_crop"
+    },
+    "y":
+    {
+      "item":"wwlm:rope"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:processed_healroot",
+    "count": 1
+  }
+}

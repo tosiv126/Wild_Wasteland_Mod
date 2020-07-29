@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:roperoot_crop"
+    },
+    {
+      "item": "wwlm:roperoot_crop"
+    },
+    {
+      "item": "wwlm:roperoot_crop"
+    },
+    {
+      "item": "wwlm:roperoot_crop"
+    },
+    {
+      "item": "wwlm:roperoot_crop"
+    },
+    {
+      "item": "wwlm:roperoot_crop"
+    }
+
+  ],
+  "result":
+  {
+    "item": "wwlm:rope",
+    "count": 3
+  }
+}

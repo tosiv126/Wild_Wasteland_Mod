@@ -1,0 +1,12 @@
+{
+  "variants":{
+    "age=0": {"model": "wwlm:block/healroot0"},
+    "age=1": {"model": "wwlm:block/healroot1"},
+    "age=2": {"model": "wwlm:block/healroot2"},
+    "age=3": {"model": "wwlm:block/healroot3"},
+    "age=4": {"model": "wwlm:block/healroot4"},
+    "age=5": {"model": "wwlm:block/healroot5"},
+    "age=6": {"model": "wwlm:block/healroot6"},
+    "age=7": {"model": "wwlm:block/healroot7"}
+  }
+}

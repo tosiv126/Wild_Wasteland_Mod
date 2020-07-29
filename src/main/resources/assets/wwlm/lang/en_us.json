@@ -12,6 +12,12 @@
   "item.wwlm.casting_bin": "Casting Bin",
   "item.wwlm.lead_bullet": "Lead Bullet",
   "item.wwlm.lowcal_bullet": "Low-Cal Bullet",
+  "item.wwlm.insect_flesh": "Insect Flesh",
+  "item.wwlm.cooked_insect_flesh": "Insect 'Steak'",
+  "item.wwlm.radioactive_insect_flesh": "Radioactive Insect Flesh",
+  "item.wwlm.healroot_crop": "Healroot",
+  "item.wwlm.roperoot_crop": "Roperoot",
+  "item.wllm.rope": "Rope",
 
   "block.wwlm.ash_block": "Ash Block",
   "block.wwlm.copper_block": "Copper Block",
@@ -19,6 +25,11 @@
   "block.wwlm.steel_block": "Steel Block",
   "block.wwlm.copper_ore": "Copper Ore",
   "block.wwlm.lead_ore": "Lead Ore",
+
+  "block.wwlm.healroot": "Healroot Seeds",
+  "block.wwlm.roperoot": "Roperoot Seeds",
+
+  "entity.wwlm.great_beetle": "Great Beetle",
 
   "itemGroup.WildWastelandTab": "WW Mod"
 }

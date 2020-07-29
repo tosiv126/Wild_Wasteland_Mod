@@ -1,0 +1,9 @@
+{
+"type": "minecraft:smelting",
+"ingredient": {
+"item": "wwlm:insect_flesh"
+},
+"result": "wwlm:cooked_insect_flesh",
+"experience": 0.5,
+"cookingtime": 200
+}

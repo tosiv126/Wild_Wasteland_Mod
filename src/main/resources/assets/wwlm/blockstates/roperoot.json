@@ -1,0 +1,12 @@
+{
+  "variants":{
+    "age=0": {"model": "wwlm:block/roperoot0"},
+    "age=1": {"model": "wwlm:block/roperoot1"},
+    "age=2": {"model": "wwlm:block/roperoot2"},
+    "age=3": {"model": "wwlm:block/roperoot3"},
+    "age=4": {"model": "wwlm:block/roperoot4"},
+    "age=5": {"model": "wwlm:block/roperoot5"},
+    "age=6": {"model": "wwlm:block/roperoot6"},
+    "age=7": {"model": "wwlm:block/roperoot7"}
+  }
+}
