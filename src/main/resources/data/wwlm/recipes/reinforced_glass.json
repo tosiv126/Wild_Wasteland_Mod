@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x":
+    {
+      "item":"wwlm:steel_ingot"
+    },
+    "y":
+    {
+      "item":"minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:reinforced_glass",
+    "count": 1
+  }
+}

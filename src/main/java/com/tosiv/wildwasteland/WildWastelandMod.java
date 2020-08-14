@@ -53,7 +53,7 @@ public class WildWastelandMod
     public static final ItemGroup TAB = new ItemGroup("WildWastelandTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.PIPE.get());
+            return new ItemStack(ModItems.PROCESSED_HEALROOT.get());
         }
 
     };

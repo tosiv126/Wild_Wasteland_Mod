@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "   "
+  ],
+  "key": {
+    "x":
+    {
+      "item":"wwlm:beetle_shell"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:beetle_helmet",
+    "count": 1
+  }
+}

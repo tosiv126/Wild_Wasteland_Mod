@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x":
+    {
+      "item":"wwlm:rope"
+    },
+    "y":
+    {
+      "item":"wwlm:armor_plate"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:flak_vest",
+    "count": 1
+  }
+}

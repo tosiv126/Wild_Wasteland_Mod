@@ -4,9 +4,12 @@ import com.tosiv.wildwasteland.WildWastelandMod;
 import com.tosiv.wildwasteland.client.render.GreatBeetleRenderer;
 import com.tosiv.wildwasteland.init.ModBlocks;
 import com.tosiv.wildwasteland.init.ModEntityTypes;
+import com.tosiv.wildwasteland.items.ModSpawnEggItem;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.entity.EntityType;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +23,10 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(ModBlocks.HEALROOT.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.ROPEROOT.get(), RenderType.getCutout());
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.GREAT_BEETLE.get(), GreatBeetleRenderer::new);
+    }
+    @SubscribeEvent
+    public static void onRegisterEntities(final RegistryEvent.Register<EntityType<?>> event) {
+        ModSpawnEggItem.initSpawnEggs();
     }
 
 }

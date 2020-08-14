@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xyx",
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x":
+    {
+      "item":"minecraft:brick"
+    },
+    "y":
+    {
+      "item":"wwlm:steel_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:armor_plate",
+    "count": 2
+  }
+}

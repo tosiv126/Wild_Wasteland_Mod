@@ -17,7 +17,16 @@
   "item.wwlm.radioactive_insect_flesh": "Radioactive Insect Flesh",
   "item.wwlm.healroot_crop": "Healroot",
   "item.wwlm.roperoot_crop": "Roperoot",
-  "item.wllm.rope": "Rope",
+  "item.wwlm.rope": "Rope",
+  "item.wwlm.reinforced_glass": "Reinforced Glass",
+  "item.wwlm.beetle_shell": "Beetle Shell",
+  "item.wwlm.armor_plate": "Armor Plate",
+
+  "item.wwlm.beetle_helmet": "Beetle Shell Helmet",
+  "item.wwlm.beetle_chestplate": "Beetle Shell Chestplate",
+  "item.wwlm.beetle_leggings": "Beetle Shell Leggings",
+  "item.wwlm.beetle_boots": "Beetle Shell Boots",
+  "item.wwlm.flak_vest": "Flak Vest",
 
   "block.wwlm.ash_block": "Ash Block",
   "block.wwlm.copper_block": "Copper Block",
