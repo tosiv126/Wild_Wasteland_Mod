@@ -4,6 +4,7 @@ import com.tosiv.wildwasteland.WildWastelandMod;
 import com.tosiv.wildwasteland.init.ModItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
@@ -21,6 +22,20 @@ public enum ModArmorMaterial implements IArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
             2.0F,
             ()->{return Ingredient.fromItems(ModItems.STEEL_INGOT.get());}),
+    COWBOY(WildWastelandMod.MOD_ID + ":cowboy",
+            15,
+            new int[]{2,5,6,2},
+            8,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
+            0.0F,
+            ()->{return Ingredient.fromItems(Items.LEATHER);}),
+    RAGS(WildWastelandMod.MOD_ID + ":rags",
+            15,
+            new int[]{1,4,5,1},
+            8,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
+            0.0F,
+            ()->{return Ingredient.fromItems(Items.LEATHER);}),
     FLAK(WildWastelandMod.MOD_ID + ":flak",
             30,
             new int[]{2,5,6,2},
@@ -28,6 +43,20 @@ public enum ModArmorMaterial implements IArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
             0.0F,
             ()->{return Ingredient.fromItems(ModItems.ARMOR_PLATE.get());}),
+    DIVING(WildWastelandMod.MOD_ID + ":diving",
+            30,
+            new int[]{2,5,6,2},
+            8,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
+            0.0F,
+            ()->{return Ingredient.fromItems(ModItems.STEEL_INGOT.get());}),
+    PRIEST(WildWastelandMod.MOD_ID + ":priest",
+            30,
+            new int[]{2,5,6,2},
+            8,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
+            0.0F,
+            ()->{return Ingredient.fromItems(ModItems.ROPE.get());}),
     BEETLE(WildWastelandMod.MOD_ID + ":beetle",
             25,
             new int[]{2,5,6,2},

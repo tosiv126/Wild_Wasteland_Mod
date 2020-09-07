@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    "xxx",
+    "   "
+  ],
+  "key": {
+    "x":
+    {
+      "item":"minecraft:leather"
+    }
+  },
+  "result":
+  {
+    "item": "wwlm:cowboyhatbrown",
+    "count": 1
+  }
+}

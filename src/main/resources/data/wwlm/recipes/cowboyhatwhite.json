@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:cowboyhatbrown"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:cowboyhatwhite",
+    "count": 1
+  }
+
+}

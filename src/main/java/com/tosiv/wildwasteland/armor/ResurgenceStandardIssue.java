@@ -132,13 +132,13 @@ public class ResurgenceStandardIssue extends ArmorBaseModel {
         armorLeftArm.setTextureOffset(0, 45).addBox(3.1F, 0.0F, -2.0F, 1.0F, 10.0F, 4.0F, 0.0F, false);
         armorLeftArm.setTextureOffset(44, 55).addBox(0.0F, 0.0F, 1.1F, 4.0F, 10.0F, 1.0F, 0.0F, false);
 
-        armorRightLeg.setRotationPoint(2.0F, 12.0F, 0.0F);
+        armorRightLeg.setRotationPoint(-2.0F, 12.0F, 0.0F);
         bipedRightLeg.addChild(armorRightLeg);
         armorRightLeg.setTextureOffset(64, 52).addBox(2.0F, 0.0F, -2.1F, 4.0F, 8.0F, 1.0F, 0.0F, false);
         armorRightLeg.setTextureOffset(54, 54).addBox(5.1F, 0.0F, -2.0F, 1.0F, 8.0F, 4.0F, 0.0F, false);
         armorRightLeg.setTextureOffset(64, 64).addBox(2.0F, 0.0F, 1.1F, 4.0F, 8.0F, 1.0F, 0.0F, false);
 
-        armorRightBoot.setRotationPoint(2.0F, 12.0F, 0.0F);
+        armorRightBoot.setRotationPoint(-2.0F, 12.0F, 0.0F);
         bipedRightLeg.addChild(armorRightBoot);
         armorRightBoot.setTextureOffset(40, 66).addBox(5.1F, 8.0F, -2.0F, 1.0F, 4.0F, 4.0F, 0.0F, false);
         armorRightBoot.setTextureOffset(36, 20).addBox(2.0F, 11.0F, -3.5F, 4.0F, 1.0F, 6.0F, 0.0F, false);
@@ -151,7 +151,7 @@ public class ResurgenceStandardIssue extends ArmorBaseModel {
         armorLeftLeg.setTextureOffset(10, 59).addBox(-2.0F, 0.0F, -2.1F, 4.0F, 8.0F, 1.0F, 0.0F, false);
         armorLeftLeg.setTextureOffset(34, 51).addBox(-2.1F, 0.0F, -2.0F, 1.0F, 8.0F, 4.0F, 0.0F, false);
 
-        armorLeftBoot.setRotationPoint(-2.0F, 12.0F, 0.0F);
+        armorLeftBoot.setRotationPoint(2.0F, 12.0F, 0.0F);
         bipedLeftLeg.addChild(armorLeftBoot);
         armorLeftBoot.setTextureOffset(30, 30).addBox(-2.0F, 11.0F, -3.5F, 4.0F, 1.0F, 6.0F, 0.0F, false);
         armorLeftBoot.setTextureOffset(19, 67).addBox(-2.0F, 8.0F, -3.0F, 4.0F, 3.0F, 1.0F, 0.0F, false);

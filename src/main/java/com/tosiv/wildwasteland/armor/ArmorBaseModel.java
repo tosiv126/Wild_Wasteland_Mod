@@ -119,12 +119,12 @@ public abstract class ArmorBaseModel extends BipedModel {
     public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
         copyModelAngles(this.bipedHead, this.armorHead);
         copyModelAngles(this.bipedBody, this.armorBody);
-        copyModelAngles(this.bipedRightArm, this.armorRightArm);
-        copyModelAngles(this.bipedLeftArm, this.armorLeftArm);
-        copyModelAngles(this.bipedRightLeg, this.armorRightLeg);
-        copyModelAngles(this.bipedLeftLeg, this.armorLeftLeg);
-        copyModelAngles(this.bipedRightLeg, this.armorRightBoot);
-        copyModelAngles(this.bipedLeftLeg, this.armorLeftBoot);
+        copyModelAngles(this.bipedRightArm, this.armorLeftArm);
+        copyModelAngles(this.bipedLeftArm, this.armorRightArm);
+        copyModelAngles(this.bipedRightLeg, this.armorLeftLeg);
+        copyModelAngles(this.bipedLeftLeg, this.armorRightLeg);
+        copyModelAngles(this.bipedRightLeg, this.armorLeftBoot);
+        copyModelAngles(this.bipedLeftLeg, this.armorRightBoot);
 
         matrixStack.push();
         if(isSneak) matrixStack.translate(0, 0.2, 0);

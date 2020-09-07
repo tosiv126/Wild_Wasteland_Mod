@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:cowboyhatblack"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:cowboyhatbrown",
+    "count": 1
+  }
+
+}

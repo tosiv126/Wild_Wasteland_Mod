@@ -8,19 +8,19 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="wwlm" #mandatory
 
-version="1.15.2-1.0.0" #mandatory
+version="1.16.1-1.0.6" #mandatory
 
 displayName="Wild Wasteland Mod" #mandatory
 
 updateJSONURL="http://myurl.me/" #optional
 
-displayURL="http://example.com/" #optional
+displayURL="https://discord.gg/KqYHR84" #optional
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks for this mod goes to Technovision, Turtywurty, hours of tutorials, and many helpful members of the minecraft modding community" #optional
 
-authors="Tosiv, TechnoVision" #optional
+authors="Tosiv" #optional
 
 description='''
 A mod for exploration of the wasteland.
@@ -42,6 +42,6 @@ A mod for exploration of the wasteland.
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"

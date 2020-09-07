@@ -8,6 +8,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -56,6 +57,8 @@ public class ModItems {
 
 
     //Tools
+    public static final RegistryObject<SwordItem> CROZIUS = ITEMS.register("crozius",
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
 
     //Armor
     public static final RegistryObject<ArmorItem> BEETLE_HELMET = ITEMS.register("beetle_helmet",
@@ -80,6 +83,26 @@ public class ModItems {
             ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB), model1));
     public static final RegistryObject<ArmorBaseItem> RESURGENCE_BOOTS = ITEMS.register("resurgence_boots",
             ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.FEET, new Item.Properties().group(WildWastelandMod.TAB), model1));
+
+    private static CowboyHatBrown model2= new CowboyHatBrown();
+    public static final RegistryObject<ArmorBaseItem> COWBOYHATBROWN = ITEMS.register("cowboyhatbrown",
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model2));
+    private static CowboyHatWhite model3= new CowboyHatWhite();
+    public static final RegistryObject<ArmorBaseItem> COWBOYHATWHITE = ITEMS.register("cowboyhatwhite",
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model3));
+    private static CowboyHatBlack model4= new CowboyHatBlack();
+    public static final RegistryObject<ArmorBaseItem> COWBOYHATBLACK = ITEMS.register("cowboyhatblack",
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model4));
+
+    private static final Rags model5= new Rags();
+    public static final RegistryObject<ArmorBaseItem> RAGS_HELMET = ITEMS.register("rags_helmet",
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model5));
+    public static final RegistryObject<ArmorBaseItem> RAGS_CHEST = ITEMS.register("rags_chest",
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB), model5));
+    public static final RegistryObject<ArmorBaseItem> RAGS_LEGS = ITEMS.register("rags_legs",
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB), model5));
+
+
 
 
 
