@@ -10,6 +10,9 @@ public enum ModItemTier implements IItemTier {
 
     CROZIUSTIER(3, 800, 7.0F, 3.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.STEEL_INGOT.get());
+    }),
+    TRENCHMACETIER(3, 800, 7.0F, 3.0F, 12, () -> {
+        return Ingredient.fromItems(ModItems.STEEL_INGOT.get());
     });
 
     private final int harvestLevel;

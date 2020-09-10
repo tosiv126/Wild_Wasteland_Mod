@@ -38,6 +38,13 @@ public class ModItems {
     public static final RegistryObject<Item> REINFORCED_GLASS = ITEMS.register("reinforced_glass", ItemBase::new);
     public static final RegistryObject<Item> BEETLE_SHELL = ITEMS.register("beetle_shell", ItemBase::new);
     public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_CAUTION = ITEMS.register("skin_caution", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_HOT_PINK = ITEMS.register("skin_hot_pink", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_BLACK = ITEMS.register("skin_black", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_CAMO = ITEMS.register("skin_camo", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_DEFAULT = ITEMS.register("skin_default", ItemBase::new);
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ItemBase::new);
 
     //Spawn Eggs
     public static final RegistryObject<ModSpawnEggItem> GREAT_BEETLE_SPAWN_EGG = ITEMS.register("great_beetle_spawn_egg",
@@ -59,6 +66,24 @@ public class ModItems {
     //Tools
     public static final RegistryObject<SwordItem> CROZIUS = ITEMS.register("crozius",
             () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> CROZIUS_SKIN1 = ITEMS.register("crozius_skin1",
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> CROZIUS_SKIN2 = ITEMS.register("crozius_skin2",
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> CROZIUS_SKIN3 = ITEMS.register("crozius_skin3",
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> CROZIUS_SKIN4 = ITEMS.register("crozius_skin4",
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE = ITEMS.register("trench_mace",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN1 = ITEMS.register("trench_mace_skin1",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN2 = ITEMS.register("trench_mace_skin2",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN3 = ITEMS.register("trench_mace_skin3",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN4 = ITEMS.register("trench_mace_skin4",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
 
     //Armor
     public static final RegistryObject<ArmorItem> BEETLE_HELMET = ITEMS.register("beetle_helmet",
@@ -119,5 +144,14 @@ public class ModItems {
             () -> new BlockItemBase(ModBlocks.COPPER_ORE.get()));
     public static final RegistryObject<Item> LEAD_ORE_ITEM = ITEMS.register("lead_ore",
             () -> new BlockItemBase(ModBlocks.LEAD_ORE.get()));
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore",
+            () -> new BlockItemBase(ModBlocks.RUBY_ORE.get()));
+    public static final RegistryObject<Item> SAPPHIRE_ORE_ITEM = ITEMS.register("sapphire_ore",
+            () -> new BlockItemBase(ModBlocks.SAPPHIRE_ORE.get()));
+    public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block",
+            () -> new BlockItemBase(ModBlocks.RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> SAPPHIRE_BLOCK_ITEM = ITEMS.register("sapphire_block",
+            () -> new BlockItemBase(ModBlocks.SAPPHIRE_BLOCK.get()));
+
 
 }

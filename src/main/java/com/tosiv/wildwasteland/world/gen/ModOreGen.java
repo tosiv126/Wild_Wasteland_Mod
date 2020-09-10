@@ -23,6 +23,8 @@ public class ModOreGen {
         for (Biome biome : ForgeRegistries.BIOMES) {
             genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(),8);
             genOre(biome, 15,8,5,80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LEAD_ORE.get().getDefaultState(),8);
+            genOre(biome, 5,8,5,40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.SAPPHIRE_ORE.get().getDefaultState(),4);
+            genOre(biome, 5,8,5,40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.RUBY_ORE.get().getDefaultState(),4);
         }
 
     }

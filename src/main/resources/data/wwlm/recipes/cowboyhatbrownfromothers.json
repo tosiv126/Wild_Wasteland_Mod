@@ -5,12 +5,12 @@
       "tag": "wwlm:cowboy_hats"
     },
     {
-      "item": "minecraft:black_dye"
+      "item": "minecraft:brown_dye"
     }
   ],
   "result":
   {
-    "item": "wwlm:cowboyhatblack",
+    "item": "wwlm:cowboyhatbrown",
     "count": 1
   }
 

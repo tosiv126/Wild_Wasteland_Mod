@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wwlm:cowboyhatbrown"
+      "tag": "wwlm:cowboy_hats"
     },
     {
       "item": "minecraft:bone_meal"

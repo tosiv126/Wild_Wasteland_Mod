@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wwlm:cowboyhatblack"
+      "item": "wwlm:crozius"
     },
     {
-      "item": "minecraft:brown_dye"
+      "item": "wwlm:skin_black"
     }
   ],
   "result":
   {
-    "item": "wwlm:cowboyhatbrown",
+    "item": "wwlm:crozius_skin3",
     "count": 1
   }
-
 }

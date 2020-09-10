@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "wwlm:cowboy_hats"
+      "item": "wwlm:trench_mace"
     },
     {
-      "item": "minecraft:black_dye"
+      "item": "wwlm:skin_black"
     }
   ],
   "result":
   {
-    "item": "wwlm:cowboyhatblack",
+    "item": "wwlm:trench_mace_skin3",
     "count": 1
   }
-
 }
