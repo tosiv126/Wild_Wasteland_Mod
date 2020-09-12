@@ -57,5 +57,20 @@ public class WildWastelandMod
         }
 
     };
+    public static final ItemGroup TAB2 = new ItemGroup("Armor") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModItems.COWBOYHATBROWN.get());
+        }
+
+    };
+    public static final ItemGroup TAB3 = new ItemGroup("Weapons") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModItems.TRENCH_MACE.get());
+        }
+
+    };
+
 
 }

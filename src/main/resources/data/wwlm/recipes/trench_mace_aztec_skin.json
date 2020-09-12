@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:trench_mace"
+    },
+    {
+      "item": "wwlm:skin_aztec"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:trench_mace_skin9",
+    "count": 1
+  }
+}

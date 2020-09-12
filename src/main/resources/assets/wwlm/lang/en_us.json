@@ -26,7 +26,17 @@
   "item.wwlm.skin_hot_pink": "Barbie Paint",
   "item.wwlm.skin_black": "Black Paint",
   "item.wwlm.skin_camo": "Camo Paint",
+  "item.wwlm.skin_gold": "Gold Paint",
+  "item.wwlm.skin_candy_cane": "Candy Cane Paint",
+  "item.wwlm.skin_asimov": "Asimov Paint",
+  "item.wwlm.skin_camo_winter": "Winter Camo Paint",
+  "item.wwlm.skin_aztec": "Aztec Paint",
+  "item.wwlm.skin_sky": "Sky Paint",
+  "item.wwlm.skin_dragon": "Dragon Paint",
+  "item.wwlm.skin_lava": "Lava Paint",
   "item.wwlm.skin_default": "Default Paint",
+  "item.wwlm.ruby": "Ruby",
+  "item.wwlm.sapphire": "Sapphire",
 
   "item.wwlm.beetle_helmet": "Beetle Shell Helmet",
   "item.wwlm.beetle_chestplate": "Beetle Shell Chestplate",
@@ -46,6 +56,10 @@
   "item.wwlm.trench_mace_skin2": "Barbie Trench Mace",
   "item.wwlm.trench_mace_skin3": "Night Raider Trench Mace",
   "item.wwlm.trench_mace_skin4": "Forest Camo Trench Mace",
+  "item.wwlm.trench_mace_skin5": "Golden Trench Mace",
+  "item.wwlm.trench_mace_skin7": "Asimov Painted Trench Mace",
+  "item.wwlm.trench_mace_skin8": "Winter Camo Trench Mace",
+  "item.wwlm.trench_mace_skin9": "Aztec War Mace",
   "item.wwlm.crozius_skin1": "Cautious Crozius",
   "item.wwlm.crozius_skin2": "Barbie Crozius",
   "item.wwlm.crozius_skin3": "Night Raider Crozius",
@@ -55,13 +69,20 @@
   "block.wwlm.copper_block": "Copper Block",
   "block.wwlm.lead_block": "Lead Block",
   "block.wwlm.steel_block": "Steel Block",
+  "block.wwlm.ruby_block": "Ruby Block",
+  "block.wwlm.sapphire_block": "Sapphire Block",
   "block.wwlm.copper_ore": "Copper Ore",
   "block.wwlm.lead_ore": "Lead Ore",
+  "block.wwlm.ruby_ore": "Ruby Ore",
+  "block.wwlm.sapphire_ore": "Sapphire Ore",
 
   "block.wwlm.healroot": "Healroot Seeds",
   "block.wwlm.roperoot": "Roperoot Seeds",
 
   "entity.wwlm.great_beetle": "Great Beetle",
+  "item.wwlm.great_beetle_spawn_egg": "Great Beetle Spawn Egg",
 
-  "itemGroup.WildWastelandTab": "WW Mod"
+  "itemGroup.WildWastelandTab": "WW Mod",
+  "itemGroup.Armor": "Armor",
+  "itemGroup.Weapons": "Weapons"
 }

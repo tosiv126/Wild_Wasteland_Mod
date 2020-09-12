@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:trench_mace"
+    },
+    {
+      "item": "wwlm:skin_gold"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:trench_mace_skin5",
+    "count": 1
+  }
+}

@@ -42,6 +42,14 @@ public class ModItems {
     public static final RegistryObject<Item> SKIN_HOT_PINK = ITEMS.register("skin_hot_pink", ItemBase::new);
     public static final RegistryObject<Item> SKIN_BLACK = ITEMS.register("skin_black", ItemBase::new);
     public static final RegistryObject<Item> SKIN_CAMO = ITEMS.register("skin_camo", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_GOLD = ITEMS.register("skin_gold", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_CANDY_CANE = ITEMS.register("skin_candy_cane", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_ASIMOV = ITEMS.register("skin_asimov", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_AZTEC = ITEMS.register("skin_aztec", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_CAMO_WINTER = ITEMS.register("skin_camo_winter", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_DRAGON = ITEMS.register("skin_dragon", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_LAVA = ITEMS.register("skin_lava", ItemBase::new);
+    public static final RegistryObject<Item> SKIN_SKY = ITEMS.register("skin_sky", ItemBase::new);
     public static final RegistryObject<Item> SKIN_DEFAULT = ITEMS.register("skin_default", ItemBase::new);
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ItemBase::new);
@@ -65,67 +73,75 @@ public class ModItems {
 
     //Tools
     public static final RegistryObject<SwordItem> CROZIUS = ITEMS.register("crozius",
-            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> CROZIUS_SKIN1 = ITEMS.register("crozius_skin1",
-            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> CROZIUS_SKIN2 = ITEMS.register("crozius_skin2",
-            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> CROZIUS_SKIN3 = ITEMS.register("crozius_skin3",
-            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> CROZIUS_SKIN4 = ITEMS.register("crozius_skin4",
-            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.CROZIUSTIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> TRENCH_MACE = ITEMS.register("trench_mace",
-            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN1 = ITEMS.register("trench_mace_skin1",
-            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN2 = ITEMS.register("trench_mace_skin2",
-            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN3 = ITEMS.register("trench_mace_skin3",
-            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
     public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN4 = ITEMS.register("trench_mace_skin4",
-            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB)));
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN5 = ITEMS.register("trench_mace_skin5",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN7 = ITEMS.register("trench_mace_skin7",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN8 = ITEMS.register("trench_mace_skin8",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
+    public static final RegistryObject<SwordItem> TRENCH_MACE_SKIN9 = ITEMS.register("trench_mace_skin9",
+            () -> new SwordItem(ModItemTier.TRENCHMACETIER, 2, -2.4F, new Item.Properties().group(WildWastelandMod.TAB3)));
 
     //Armor
     public static final RegistryObject<ArmorItem> BEETLE_HELMET = ITEMS.register("beetle_helmet",
-            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB)));
+            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2)));
     public static final RegistryObject<ArmorItem> BEETLE_CHESTPLATE = ITEMS.register("beetle_chestplate",
-            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB)));
+            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB2)));
     public static final RegistryObject<ArmorItem> BEETLE_LEGGINGS = ITEMS.register("beetle_leggings",
-            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB)));
+            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB2)));
     public static final RegistryObject<ArmorItem> BEETLE_BOOTS = ITEMS.register("beetle_boots",
-            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.FEET, new Item.Properties().group(WildWastelandMod.TAB)));
+            ()-> new ArmorItem(ModArmorMaterial.BEETLE, EquipmentSlotType.FEET, new Item.Properties().group(WildWastelandMod.TAB2)));
 
     private static FlakVest model= new FlakVest();
     public static final RegistryObject<ArmorBaseItem> FLAK_VEST = ITEMS.register("flak_vest",
-            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB), model));
+            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB2), model));
 
     private static final ResurgenceStandardIssue model1= new ResurgenceStandardIssue();
     public static final RegistryObject<ArmorBaseItem> RESURGENCE_HELMET = ITEMS.register("resurgence_helmet",
-            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model1));
+            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2), model1));
     public static final RegistryObject<ArmorBaseItem> RESURGENCE_CHEST = ITEMS.register("resurgence_chest",
-            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB), model1));
+            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB2), model1));
     public static final RegistryObject<ArmorBaseItem> RESURGENCE_LEGS = ITEMS.register("resurgence_legs",
-            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB), model1));
+            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB2), model1));
     public static final RegistryObject<ArmorBaseItem> RESURGENCE_BOOTS = ITEMS.register("resurgence_boots",
-            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.FEET, new Item.Properties().group(WildWastelandMod.TAB), model1));
+            ()-> new ArmorBaseItem(ModArmorMaterial.FLAK, EquipmentSlotType.FEET, new Item.Properties().group(WildWastelandMod.TAB2), model1));
 
     private static CowboyHatBrown model2= new CowboyHatBrown();
     public static final RegistryObject<ArmorBaseItem> COWBOYHATBROWN = ITEMS.register("cowboyhatbrown",
-            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model2));
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2), model2));
     private static CowboyHatWhite model3= new CowboyHatWhite();
     public static final RegistryObject<ArmorBaseItem> COWBOYHATWHITE = ITEMS.register("cowboyhatwhite",
-            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model3));
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2), model3));
     private static CowboyHatBlack model4= new CowboyHatBlack();
     public static final RegistryObject<ArmorBaseItem> COWBOYHATBLACK = ITEMS.register("cowboyhatblack",
-            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model4));
+            ()-> new ArmorBaseItem(ModArmorMaterial.COWBOY, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2), model4));
 
     private static final Rags model5= new Rags();
     public static final RegistryObject<ArmorBaseItem> RAGS_HELMET = ITEMS.register("rags_helmet",
-            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB), model5));
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.HEAD, new Item.Properties().group(WildWastelandMod.TAB2), model5));
     public static final RegistryObject<ArmorBaseItem> RAGS_CHEST = ITEMS.register("rags_chest",
-            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB), model5));
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.CHEST, new Item.Properties().group(WildWastelandMod.TAB2), model5));
     public static final RegistryObject<ArmorBaseItem> RAGS_LEGS = ITEMS.register("rags_legs",
-            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB), model5));
+            ()-> new ArmorBaseItem(ModArmorMaterial.RAGS, EquipmentSlotType.LEGS, new Item.Properties().group(WildWastelandMod.TAB2), model5));
 
 
 

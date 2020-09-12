@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wwlm:trench_mace"
+    },
+    {
+      "item": "wwlm:skin_camo_winter"
+    }
+  ],
+  "result":
+  {
+    "item": "wwlm:trench_mace_skin8",
+    "count": 1
+  }
+}
